@@ -1,0 +1,12 @@
+streamlit
+pandas
+plotly
+matplotlib
+torch
+transformers
+google-api-python-client
+python-dotenv
+reportlab
+wordcloud
+openpyxl
+pyodbc
