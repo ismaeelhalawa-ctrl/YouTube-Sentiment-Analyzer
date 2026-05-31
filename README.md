@@ -8,12 +8,17 @@ The application helps content creators understand audience reactions by analyzin
 
 ## Preview
 
-> Add your application screenshots inside the `screenshots` folder.
+### Dashboard
+(screenshots/dashboard.png)
 
-```text
-<img width="1919" height="953" alt="Screenshot 2026-06-01 014641" src="https://github.com/user-attachments/assets/8fb115b8-fe44-45f9-87ec-63e62a00d5eb" />
-<img width="1919" height="949" alt="Screenshot 2026-06-01 015832" src="https://github.com/user-attachments/assets/21ecf88f-b312-459a-9c63-b180d5f60348" />
+### Comment Analysis
+(screenshots/comments-analysis.png)
 
+### Keyword Analysis
+(screenshots/keyword-analysis.png)
+
+### Video Comparison
+(screenshots/comparison.png)
 ```
 
 Example:
