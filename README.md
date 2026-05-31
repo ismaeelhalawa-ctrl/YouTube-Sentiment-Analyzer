@@ -26,7 +26,7 @@ Comprehensive analytics dashboard displaying video statistics, sentiment distrib
 
 ### 💬 Comment Analysis
 
-![Comment Analysis](screenshots/comments-analysis.png)
+![Comment Analysis](screenshots/commentsanalysis.png)
 
 Advanced comment explorer with filtering options for sentiment, language, spam detection, confidence levels, and engagement metrics.
 
