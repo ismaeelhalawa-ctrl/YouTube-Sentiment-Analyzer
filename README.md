@@ -138,7 +138,7 @@ cd YouTube-Sentiment-Analyzer
 ### 📦 Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -r Requirements.txt
 ```
 
 ### 🔑 Create Environment File
