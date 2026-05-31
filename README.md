@@ -6,26 +6,29 @@ The application helps content creators understand audience reactions by analyzin
 
 ---
 
-## 📸 Preview
+## Preview
 
 > Add your application screenshots inside the `screenshots` folder.
 
 ```text
-screenshots/
-└── dashboard.png
+<img width="1919" height="953" alt="Screenshot 2026-06-01 014641" src="https://github.com/user-attachments/assets/8fb115b8-fe44-45f9-87ec-63e62a00d5eb" />
+<img width="1919" height="949" alt="Screenshot 2026-06-01 015832" src="https://github.com/user-attachments/assets/21ecf88f-b312-459a-9c63-b180d5f60348" />
+
 ```
 
 Example:
 
 ```md
-![Dashboard](screenshots/dashboard.png)
+<img width="1919" height="944" alt="Screenshot 2026-06-01 015729" src="https://github.com/user-attachments/assets/4095b163-ec2f-41b2-a268-d8984b63f2b0" />
+<img width="1919" height="948" alt="Screenshot 2026-06-01 015626" src="https://github.com/user-attachments/assets/34a44f44-7eda-4f91-afef-8c7987dd2a88" />
+
 ```
 
 ---
 
-## ✨ Features
+## Features
 
-### 🤖 Sentiment Analysis
+### Sentiment Analysis
 
 * Arabic sentiment analysis using MARBERT
 * English sentiment analysis using RoBERTa
@@ -33,14 +36,14 @@ Example:
 * Confidence scoring
 * Emoji-enhanced sentiment detection
 
-### 🌍 Language Detection
+### Language Detection
 
 * Arabic comments
 * English comments
 * Mixed Arabic/English comments
 * Other languages
 
-### 🚨 Spam Detection
+### Spam Detection
 
 * Promotional comments detection
 * Suspicious links detection
@@ -48,13 +51,13 @@ Example:
 * WhatsApp spam detection
 * Repeated content detection
 
-### 😏 Sarcasm Detection
+### Sarcasm Detection
 
 * Emoji-based sarcasm recognition
 * Rule-based sarcasm analysis
 * Context contradiction detection
 
-### 📊 Interactive Dashboard
+### Interactive Dashboard
 
 * Sentiment distribution charts
 * Language distribution charts
@@ -62,7 +65,7 @@ Example:
 * Likes vs sentiment analytics
 * Audience engagement metrics
 
-### 🔍 Keyword & Topic Analysis
+### Keyword & Topic Analysis
 
 * Most frequent keywords
 * Positive keywords
@@ -70,20 +73,20 @@ Example:
 * Neutral keywords
 * Topic extraction
 
-### 📄 Export Reports
+### Export Reports
 
 * CSV export
 * Excel export
 * PDF reports
 
-### ⚖️ Video Comparison
+### Video Comparison
 
 * Compare two YouTube videos
 * Audience sentiment comparison
 * Engagement comparison
 * Performance comparison
 
-### 🗄️ Analysis History
+### Analysis History
 
 * Save analysis results
 * SQL Server integration
@@ -91,7 +94,7 @@ Example:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * Streamlit
@@ -108,7 +111,7 @@ Example:
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Clone Repository
 
@@ -140,7 +143,7 @@ streamlit run app.py
 
 ---
 
-## 🗄️ Database Setup
+## Database Setup
 
 Create database:
 
@@ -171,7 +174,7 @@ database.py
 
 ---
 
-## 📊 Main Capabilities
+## Main Capabilities
 
 * Analyze thousands of YouTube comments
 * Detect audience sentiment automatically
@@ -208,13 +211,13 @@ database.py
 
 ---
 
-## 📜 License
+## License
 
 MIT License
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Ismaeel Halawa**
 
