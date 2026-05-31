@@ -571,9 +571,9 @@ else:
 </style>
 """, unsafe_allow_html=True)
 
-# ==============================
-# HERO SECTION - العنوان المحسن
-# ==============================
+# ============
+# HERO SECTION
+# ============
 
 _hero_title    = t(" YouTube Comment Sentiment Analyzer PRO 🎯",
                    "🎯 محلل مشاعر تعليقات يوتيوب")
