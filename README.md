@@ -6,28 +6,37 @@ The application helps content creators understand audience reactions by analyzin
 
 ---
 
-## Preview
+## 📸 Preview
 
-### Dashboard
-(screenshots/dashboard.png)
+### 🏠 Home Screen
 
-### Comment Analysis
-(screenshots/comments-analysis.png)
+![Home Screen](screenshots/home.png)
 
-### Keyword Analysis
-(screenshots/keyword-analysis.png)
+The main interface where users can configure analysis settings, choose comment limits, adjust confidence thresholds, and start analyzing YouTube videos.
 
-### Video Comparison
-(screenshots/comparison.png)
-```
+---
 
-Example:
+### 📊 Analytics Dashboard
 
-```md
-<img width="1919" height="944" alt="Screenshot 2026-06-01 015729" src="https://github.com/user-attachments/assets/4095b163-ec2f-41b2-a268-d8984b63f2b0" />
-<img width="1919" height="948" alt="Screenshot 2026-06-01 015626" src="https://github.com/user-attachments/assets/34a44f44-7eda-4f91-afef-8c7987dd2a88" />
+![Dashboard](screenshots/dashboard.png)
 
-```
+Comprehensive analytics dashboard displaying video statistics, sentiment distribution, language insights, spam detection metrics, and confidence scores.
+
+---
+
+### 💬 Comment Analysis
+
+![Comment Analysis](screenshots/comments-analysis.png)
+
+Advanced comment explorer with filtering options for sentiment, language, spam detection, confidence levels, and engagement metrics.
+
+---
+
+### ⚖️ Video Comparison
+
+![Video Comparison](screenshots/comparison.png)
+
+Compare two YouTube videos side-by-side to evaluate audience sentiment, engagement, and overall performance.
 
 ---
 
