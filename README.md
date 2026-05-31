@@ -1,48 +1,6 @@
-# 🎯 YouTube Comment Sentiment Analyzer PRO
+## ✨ Features
 
-Advanced AI-powered platform for analyzing YouTube comments using Natural Language Processing (NLP) and Transformer models.
-
-The application helps content creators understand audience reactions by analyzing YouTube comments, detecting sentiment, identifying spam, recognizing sarcasm, extracting keywords, generating insights, and visualizing results through an interactive dashboard.
-
----
-
-## 📸 Preview
-
-### 🏠 Home Screen
-
-![Home Screen](screenshots/home.png)
-
-The main interface where users can configure analysis settings, choose comment limits, adjust confidence thresholds, and start analyzing YouTube videos.
-
----
-
-### 📊 Analytics Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-Comprehensive analytics dashboard displaying video statistics, sentiment distribution, language insights, spam detection metrics, and confidence scores.
-
----
-
-### 💬 Comment Analysis
-
-![Comment Analysis](screenshots/comments-analysis.png)
-
-Advanced comment explorer with filtering options for sentiment, language, spam detection, confidence levels, and engagement metrics.
-
----
-
-### ⚖️ Video Comparison
-
-![Video Comparison](screenshots/comparison.png)
-
-Compare two YouTube videos side-by-side to evaluate audience sentiment, engagement, and overall performance.
-
----
-
-## Features
-
-### Sentiment Analysis
+### 🤖 Sentiment Analysis
 
 * Arabic sentiment analysis using MARBERT
 * English sentiment analysis using RoBERTa
@@ -50,14 +8,14 @@ Compare two YouTube videos side-by-side to evaluate audience sentiment, engageme
 * Confidence scoring
 * Emoji-enhanced sentiment detection
 
-### Language Detection
+### 🌍 Language Detection
 
 * Arabic comments
 * English comments
 * Mixed Arabic/English comments
 * Other languages
 
-### Spam Detection
+### 🚨 Spam Detection
 
 * Promotional comments detection
 * Suspicious links detection
@@ -65,13 +23,13 @@ Compare two YouTube videos side-by-side to evaluate audience sentiment, engageme
 * WhatsApp spam detection
 * Repeated content detection
 
-### Sarcasm Detection
+### 😏 Sarcasm Detection
 
 * Emoji-based sarcasm recognition
 * Rule-based sarcasm analysis
 * Context contradiction detection
 
-### Interactive Dashboard
+### 📊 Interactive Dashboard
 
 * Sentiment distribution charts
 * Language distribution charts
@@ -79,7 +37,7 @@ Compare two YouTube videos side-by-side to evaluate audience sentiment, engageme
 * Likes vs sentiment analytics
 * Audience engagement metrics
 
-### Keyword & Topic Analysis
+### 🔍 Keyword & Topic Analysis
 
 * Most frequent keywords
 * Positive keywords
@@ -87,20 +45,20 @@ Compare two YouTube videos side-by-side to evaluate audience sentiment, engageme
 * Neutral keywords
 * Topic extraction
 
-### Export Reports
+### 📄 Export Reports
 
 * CSV export
 * Excel export
 * PDF reports
 
-### Video Comparison
+### ⚖️ Video Comparison
 
 * Compare two YouTube videos
 * Audience sentiment comparison
 * Engagement comparison
 * Performance comparison
 
-### Analysis History
+### 🗄️ Analysis History
 
 * Save analysis results
 * SQL Server integration
@@ -108,7 +66,7 @@ Compare two YouTube videos side-by-side to evaluate audience sentiment, engageme
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 * Python
 * Streamlit
@@ -125,70 +83,11 @@ Compare two YouTube videos side-by-side to evaluate audience sentiment, engageme
 
 ---
 
-## Installation
+## 🚀 Installation
 
-### Clone Repository
+## 🗄️ Database Setup
 
-```bash
-git clone https://github.com/ismaeelhalawa-ctrl/YouTube-Sentiment-Analyzer.git
-
-cd YouTube-Sentiment-Analyzer
-```
-
-### Install Dependencies
-
-```bash
-pip install -r Requirements.txt
-```
-
-### Create Environment File
-
-Create a `.env` file:
-
-```env
-YOUTUBE_API_KEY=YOUR_API_KEY
-```
-
-### Run Application
-
-```bash
-streamlit run app.py
-```
-
----
-
-## Database Setup
-
-Create database:
-
-```sql
-CREATE DATABASE YouTubeSentimentAnalyzer;
-```
-
-Create table:
-
-```sql
-CREATE TABLE analyses (
-    id INT IDENTITY(1,1) PRIMARY KEY,
-    video_id NVARCHAR(100),
-    video_title NVARCHAR(MAX),
-    positive_percent FLOAT,
-    negative_percent FLOAT,
-    neutral_percent FLOAT,
-    total_comments INT,
-    created_at DATETIME DEFAULT GETDATE()
-);
-```
-
-Update SQL Server connection settings inside:
-
-```python
-database.py
-```
-
----
-
-## Main Capabilities
+## 📊 Main Capabilities
 
 * Analyze thousands of YouTube comments
 * Detect audience sentiment automatically
@@ -203,35 +102,17 @@ database.py
 
 ## 📁 Project Structure
 
-```text
-.
-├── app.py
-├── database.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-└── .env.example
-```
-
----
-
 ## 📁 File Description
 
-* **app.py** → Main Streamlit application and sentiment analysis engine.
-* **database.py** → Database connection and analysis history management.
-* **requirements.txt** → Project dependencies.
-* **.gitignore** → Git ignored files and folders.
-* **README.md** → Project documentation.
-
 ---
 
-## License
+## 📜 License
 
 MIT License
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Ismaeel Halawa**
 
