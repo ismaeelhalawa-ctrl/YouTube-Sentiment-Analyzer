@@ -6,7 +6,7 @@ The application helps content creators understand audience reactions by analyzin
 
 ---
 
-## 📸 Preview
+##  Preview
 
 ### 🏠 Home Screen
 
@@ -100,7 +100,7 @@ Compare two YouTube videos side-by-side to evaluate audience sentiment, engageme
 * Engagement comparison
 * Performance comparison
 
-### 🗄️ Analysis History
+###  Analysis History
 
 * Save analysis results
 * SQL Server integration
@@ -108,7 +108,7 @@ Compare two YouTube videos side-by-side to evaluate audience sentiment, engageme
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * Python
 * Streamlit
@@ -125,9 +125,9 @@ Compare two YouTube videos side-by-side to evaluate audience sentiment, engageme
 
 ---
 
-## 🚀 Installation
+## Installation
 
-### 📥 Clone Repository
+###  Clone Repository
 
 ```bash
 git clone https://github.com/ismaeelhalawa-ctrl/YouTube-Sentiment-Analyzer.git
@@ -135,13 +135,13 @@ git clone https://github.com/ismaeelhalawa-ctrl/YouTube-Sentiment-Analyzer.git
 cd YouTube-Sentiment-Analyzer
 ```
 
-### 📦 Install Dependencies
+###  Install Dependencies
 
 ```bash
 pip install -r Requirements.txt
 ```
 
-### 🔑 Create Environment File
+###  Create Environment File
 
 Create a `.env` file:
 
@@ -157,9 +157,9 @@ streamlit run app.py
 
 ---
 
-## 🗄️ Database Setup
+##  Database Setup
 
-### 🏗️ Create Database
+###  Create Database
 
 ```sql
 CREATE DATABASE YouTubeSentimentAnalyzer;
@@ -227,13 +227,13 @@ database.py
 
 ---
 
-## 📜 License
+##  License
 
 MIT License
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Ismaeel Halawa**
 
@@ -243,12 +243,12 @@ GitHub: https://github.com/ismaeelhalawa-ctrl
 
 ## ⭐ Project Highlights
 
-* 🤖 AI-powered sentiment analysis
-* 🌍 Arabic and English language support
-* 🚨 Spam and sarcasm detection
-* 📊 Interactive analytics dashboard
-* 🎥 YouTube Data API integration
-* 🗄️ SQL Server database support
-* 📄 PDF, Excel, and CSV exports
-* 📈 Historical analytics tracking
-* 🎨 Professional data visualization
+*  AI-powered sentiment analysis
+*  Arabic and English language support
+*  Spam and sarcasm detection
+*  Interactive analytics dashboard
+*  YouTube Data API integration
+*  SQL Server database support
+*  PDF, Excel, and CSV exports
+*  Historical analytics tracking
+*  Professional data visualization
